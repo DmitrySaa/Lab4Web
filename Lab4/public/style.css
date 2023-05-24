@@ -1,0 +1,103 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  form {
+    margin-bottom: 20px;
+
+  }
+
+  label {
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin-bottom: 1px;
+    margin-right: 10px;
+  }
+
+  input[type="text"],
+  input[type="number"] {
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+  }
+
+  button[type="submit"],
+  button {
+    padding: 10px 15px;
+    background-color: #6e0099;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  button[type="submit"]:hover,
+  button:hover {
+    background-color: #c039cc;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-right: 150px;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    width: 250%;
+  }
+
+  li span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  progress {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  #app div {
+    margin-bottom: 20px;
+  }
+
+  #app div h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  #chartType {
+    margin-right: 10px;
+    padding: 5px;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  canvas {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
